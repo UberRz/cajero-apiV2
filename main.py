@@ -12,9 +12,9 @@ from fastapi.middleware.cors import CORSMiddleware
 api = FastAPI()
 
 origins = [
-    "http://localhost",
-    "http://localhost:8081",
-    "https://cajero-app-v3.herokuapp.com/",
+    # "http://localhost",
+    # "http://localhost:8081",
+    # "https://cajero-app-v3.herokuapp.com/",
     "https://cajero-app-v3-1.herokuapp.com/"
 ]
 
